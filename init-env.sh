@@ -17,7 +17,7 @@
 
 # Sets all environment variables and sources scripts necessary for CARMA to operate
 
-[ -f "/opt/ros/kinetic/setup.bash" ] && source /opt/ros/kinetic/setup.bash
+[ -f "/opt/ros/noetic/setup.bash" ] && source /opt/ros/kinetic/setup.bash
 [ -f "/opt/autoware.ai/ros/install/setup.bash" ] && source /opt/autoware.ai/ros/install/setup.bash
 [ -f "/opt/carma/install/setup.bash" ] && source /opt/carma/install/setup.bash
 [ -f "/opt/carma/vehicle/config/carma.env" ] && source /opt/carma/vehicle/config/carma.env # Always source environment variables as last step
